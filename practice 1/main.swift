@@ -7,5 +7,19 @@
 
 import Foundation
 
-print("Hello, World!")
+var members = [User]()
 
+func registrarion(){
+    print("write your username")
+    let userName = User(playerName: readLine()!, point: 0)
+    members.append(userName)
+    for i in members{
+        print("Success, your username - \(i.playerName)")
+    }
+
+}
+
+registrarion()
+var game = EasyGame()
+
+game.play()

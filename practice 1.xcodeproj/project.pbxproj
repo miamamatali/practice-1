@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE31D8B9298188DB00591326 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D8B8298188DB00591326 /* main.swift */; };
+		CE31D8C029819D4700591326 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D8BF29819D4700591326 /* User.swift */; };
+		CE31D8C229819D5F00591326 /* MillionaireGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D8C129819D5F00591326 /* MillionaireGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		CE31D8B5298188DB00591326 /* practice 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "practice 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31D8B8298188DB00591326 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE31D8BF29819D4700591326 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE31D8C129819D5F00591326 /* MillionaireGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionaireGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				CE31D8B8298188DB00591326 /* main.swift */,
+				CE31D8BF29819D4700591326 /* User.swift */,
+				CE31D8C129819D5F00591326 /* MillionaireGame.swift */,
 			);
 			path = "practice 1";
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE31D8C229819D5F00591326 /* MillionaireGame.swift in Sources */,
 				CE31D8B9298188DB00591326 /* main.swift in Sources */,
+				CE31D8C029819D4700591326 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
